@@ -1,0 +1,26 @@
+[tool.pdm]
+
+[project]
+# PEP 621 project metadata
+# See https://www.python.org/dev/peps/pep-0621/
+dependencies = [
+    "gym==0.26.2",
+    "joblib==1.2.0",
+    "langchain==0.0.162",
+    "numpy==1.24.1",
+    "openai==0.27.4",
+    "python-dotenv==1.0.0",
+    "tenacity==8.2.2",
+    "tiktoken==0.4.0",
+    "transformers==4.28.1",
+    "pandas==1.5.3",
+    "scikit-learn",
+    "wikipedia",
+    "nbformat>=5.10.4",
+    "ipython>=8.26.0",
+]
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"

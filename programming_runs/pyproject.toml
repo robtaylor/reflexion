@@ -1,0 +1,23 @@
+[tool.pdm]
+
+[project]
+# PEP 621 project metadata
+# See https://www.python.org/dev/peps/pep-0621/
+dependencies = [
+    "jsonlines==3.1.0",
+    "openai==0.27.0",
+    "datasets==2.7.0",
+    "tenacity==8.1.0",
+    "astunparse==1.6.3",
+    "torch>=2.3.0",
+    "xformers",
+    "transformers",
+    "accelerate",
+    "ipython>=8.26.0",
+    "setuptools>=70.2.0",
+]
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["pdm-backend", "setuptools", "torch"]
+build-backend = "pdm.backend"
